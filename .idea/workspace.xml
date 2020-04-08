@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c530a6e-c6a3-47e6-983e-6c10c22e1707" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - MyHibernate@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - MyHibernate@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - MyHibernate@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MyHibernate: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - MyHibernate@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MyHibernate: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - MyHibernate@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MyHibernate: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - MyHibernate@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MyHibernate: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZtlVIVXBzVNhZJH270UOMZcbi5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyFirstRep" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunManager" selected="Application.TestSystem">
+    <configuration name="TestSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSystem" />
+      <module name="MyJpaHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJpaHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSystem" />
+        <item itemvalue="JUnit.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c530a6e-c6a3-47e6-983e-6c10c22e1707" name="Default Changelist" comment="" />
+      <created>1585666292925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585666292925</updated>
+      <workItem from="1585666295099" duration="1730000" />
+      <workItem from="1585668061918" duration="1777000" />
+      <workItem from="1585669877812" duration="1594000" />
+      <workItem from="1585671527711" duration="1670000" />
+      <workItem from="1585673396320" duration="1771000" />
+      <workItem from="1585675213448" duration="1894000" />
+      <workItem from="1585681121752" duration="1742000" />
+      <workItem from="1585682929719" duration="819000" />
+      <workItem from="1585716156738" duration="1915000" />
+      <workItem from="1585718895842" duration="1752000" />
+      <workItem from="1585720722297" duration="1759000" />
+      <workItem from="1585723236504" duration="1748000" />
+      <workItem from="1585732816819" duration="729000" />
+      <workItem from="1585737298318" duration="1768000" />
+      <workItem from="1585739113518" duration="1431000" />
+      <workItem from="1585749245132" duration="2061000" />
+      <workItem from="1585799633686" duration="18000" />
+      <workItem from="1586320746564" duration="1069000" />
+      <workItem from="1586324865114" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1598" y="169" key="#Assign_Data_Sources" timestamp="1585738075260">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1598" y="169" key="#Assign_Data_Sources/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585738075260" />
+    <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585672550124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585672550124" />
+    <state x="1811" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1585719636347">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1811" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585719636347" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1585671600577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585671600577" />
+    <state width="1322" height="287" key="GridCell.Tab.0.bottom" timestamp="1586325215969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585672669269" />
+    <state width="1236" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585750076620" />
+    <state width="1322" height="287" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586325215969" />
+    <state width="1322" height="287" key="GridCell.Tab.0.center" timestamp="1586325215969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="277" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585672669269" />
+    <state width="1236" height="212" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585750076620" />
+    <state width="1322" height="287" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586325215969" />
+    <state width="1322" height="287" key="GridCell.Tab.0.left" timestamp="1586325215967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="277" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585672669269" />
+    <state width="1236" height="212" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585750076620" />
+    <state width="1322" height="287" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586325215967" />
+    <state width="1322" height="287" key="GridCell.Tab.0.right" timestamp="1586325215969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="277" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585672669269" />
+    <state width="1236" height="212" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585750076620" />
+    <state width="1322" height="287" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586325215969" />
+    <state width="219" height="457" key="HiddenNamespacesPopup" timestamp="1585671664765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="219" height="457" key="HiddenNamespacesPopup/0.0.1366.728/1366.0.1280.1024@0.0.1366.728" timestamp="1585671664765" />
+    <state x="1536" y="166" key="Maven.ArtifactSearchDialog" timestamp="1585722337169">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1536" y="166" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585722337169" />
+    <state x="575" y="285" width="348" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586325183538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="1905" y="401" width="326" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585675301630" />
+    <state x="575" y="285" width="348" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1586325183538" />
+    <state x="1655" y="160" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585721315963">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1655" y="160" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585721315963" />
+    <state x="1662" y="231" key="run.anything.popup" timestamp="1585739154229">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1662" y="231" key="run.anything.popup/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585739154229" />
+    <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1585673457259">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.1024@1366.0.1280.1024" timestamp="1585673457259" />
+  </component>
+</project>

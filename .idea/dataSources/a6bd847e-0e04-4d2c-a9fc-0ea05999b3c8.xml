@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="PostgreSQL - MyHibernate@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>9.5.21</ServerVersion>
+      <StartupTime>1585712719</StartupTime>
+    </root>
+    <database id="2" parent="1" name="MyHibernate">
+      <ObjectId>16653</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1131</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|17540|17542|1
+sequence|table|17548|17550|1
+</Relations>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12373</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="resume">
+      <ObjectId>16394</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="5" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="6" parent="2" name="information_schema">
+      <ObjectId>12081</ObjectId>
+      <StateNumber>564</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="7" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>561</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="8" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>562</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>1132</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="9" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="10" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="11" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="12" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="13" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <access-method id="14" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+    </access-method>
+    <extension id="15" parent="2" name="plpgsql">
+      <ObjectId>12355</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>567</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="16" parent="8" name="contact_id_seq">
+      <ObjectId>17540</ObjectId>
+      <StateNumber>1128</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="17" parent="8" name="person_id_seq">
+      <ObjectId>17548</ObjectId>
+      <StateNumber>1129</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="18" parent="8" name="contact">
+      <ObjectId>17542</ObjectId>
+      <Outdated>1</Outdated>
+      <Owner>postgres</Owner>
+      <StateNumber>1130</StateNumber>
+    </table>
+    <table id="19" parent="8" name="person">
+      <ObjectId>17550</ObjectId>
+      <Outdated>1</Outdated>
+      <Owner>postgres</Owner>
+      <StateNumber>1130</StateNumber>
+    </table>
+    <column id="20" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1128</StateNumber>
+      <DefaultExpression>nextval(&apos;contact_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="21" parent="18" name="number">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1128</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="22" parent="18" name="contact_pkey">
+      <ObjectId>17546</ObjectId>
+      <StateNumber>1128</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="23" parent="18" name="contact_pkey">
+      <ObjectId>17547</ObjectId>
+      <StateNumber>1128</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>contact_pkey</UnderlyingIndexName>
+    </key>
+    <column id="24" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1129</StateNumber>
+      <DefaultExpression>nextval(&apos;person_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="25" parent="19" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1129</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="26" parent="19" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1129</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="27" parent="19" name="contact_id">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1129</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="28" parent="19" name="person_pkey">
+      <ObjectId>17557</ObjectId>
+      <StateNumber>1129</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="29" parent="19" name="person_pkey">
+      <ObjectId>17558</ObjectId>
+      <StateNumber>1129</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>person_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="30" parent="19" name="fkoorjau16p5oaop7bvnkm9gf27">
+      <ObjectId>17559</ObjectId>
+      <StateNumber>1130</StateNumber>
+      <ColNames>contact_id</ColNames>
+      <RefTableId>17542</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>contact</RefTableName>
+      <RefKeyName>contact_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
